@@ -1,0 +1,418 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create the three project files": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965426788
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965494740
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965731523
+      }
+    ],
+    "2.1 Add the page header with total balance display": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965430792
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965744404
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965867563
+      }
+    ],
+    "2.2 Add the transaction form section": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965434105
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965753123
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965900576
+      }
+    ],
+    "2.3 Add the pie chart section and transaction list section": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965435859
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965763990
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965912344
+      }
+    ],
+    "3.1 Add global reset, CSS custom properties, and base typography": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965437693
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965924156
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966138318
+      }
+    ],
+    "3.2 Style the header, balance display, and basic form elements": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965439451
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965934586
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966150106
+      }
+    ],
+    "3.3 Add app layout (centered, max-width) and mobile-first single-column layout": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965442447
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965944978
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966162059
+      }
+    ],
+    "4.1 Implement StorageModule as an IIFE with `load()` and `save()`": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965444828
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966174236
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966526736
+      }
+    ],
+    "4.2 Add `addTransaction()` and `deleteTransaction()` to StorageModule": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965446761
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966539724
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966643551
+      }
+    ],
+    "5.1 Implement Validator as an IIFE with `validate()`": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965449405
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966550531
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966679554
+      }
+    ],
+    "6.1 Implement AppController IIFE with `init()` and form submit wiring": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965451370
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966695099
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966795877
+      }
+    ],
+    "7.1 Implement Renderer IIFE with `render()` for the transaction list": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965453830
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966815267
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966941577
+      }
+    ],
+    "8.1 Update `render()` to calculate and display the total balance": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965455922
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967053263
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967149834
+      }
+    ],
+    "9.1 Implement `handleFormSubmit` to wire Validator → StorageModule → Renderer": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965459494
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967170086
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967271006
+      }
+    ],
+    "10.1 Implement `handleDelete(id)` using event delegation": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965461240
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967302236
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967411873
+      }
+    ],
+    "11.1 Implement ChartModule IIFE with `update()`": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965465263
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967426463
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967523523
+      }
+    ],
+    "12.1 Verify storage round-trip and graceful error handling": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965467506
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967551450
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967652422
+      }
+    ],
+    "13.1 Add desktop two-column layout and mobile touch-target styles": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965469381
+      },
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967667763
+      }
+    ],
+    "14.1 Implement CategoryModule IIFE": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965471601
+      }
+    ],
+    "14.2 Add the inline add-category form to HTML and wire it up": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965473788
+      }
+    ],
+    "15.1 Implement SortModule IIFE and sort controls": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965475743
+      }
+    ],
+    "16.1 Implement ThemeModule IIFE and toggle button": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965477300
+      }
+    ],
+    "1. Project Setup": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965734606
+      }
+    ],
+    "2. HTML Structure": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790965915806
+      }
+    ],
+    "3. CSS Baseline": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966164115
+      }
+    ],
+    "4. StorageModule": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966646319
+      }
+    ],
+    "5. Validator": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966682241
+      }
+    ],
+    "6. AppController Bootstrap": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966798914
+      }
+    ],
+    "7. Renderer — Transaction List": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790966944792
+      }
+    ],
+    "8. Renderer — Total Balance": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967152620
+      }
+    ],
+    "9. Form Submission Flow": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967273738
+      }
+    ],
+    "10. Delete Transaction": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967413920
+      }
+    ],
+    "11. ChartModule": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967525712
+      }
+    ],
+    "12. Data Persistence Verification": [
+      {
+        "executionId": "49705003-2182-4be5-b181-e067b24e9f00",
+        "chatSessionId": "sess_8e025c40-2021-4fe4-a39e-b29d00e077ba",
+        "timestamp": 1790967655901
+      }
+    ]
+  }
+}

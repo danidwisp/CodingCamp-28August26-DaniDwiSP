@@ -1,0 +1,331 @@
+/* =============================================
+   RESET
+   ============================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================
+   DESIGN TOKENS
+   ============================================= */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f5f5f5;
+  --color-text: #1a1a1a;
+  --color-text-muted: #6b6b6b;
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-danger: #dc2626;
+  --color-border: #d1d5db;
+  --color-error: #dc2626;
+  --font-size-base: 16px;
+  --radius: 8px;
+}
+
+/* =============================================
+   DARK MODE VARIABLES
+   ============================================= */
+[data-theme="dark"] {
+  --color-bg: #111827;
+  --color-surface: #1f2937;
+  --color-text: #f9fafb;
+  --color-text-muted: #9ca3af;
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-danger: #ef4444;
+  --color-border: #374151;
+}
+
+/* =============================================
+   BASE
+   ============================================= */
+html {
+  font-size: var(--font-size-base);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+/* =============================================
+   HEADER
+   ============================================= */
+.app-header {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-header h1 {
+  font-size: 1.75rem;
+}
+
+.balance-display {
+  padding: 12px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background-color: var(--color-surface);
+  text-align: right;
+}
+
+.balance-label {
+  display: block;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+#total-balance {
+  display: block;
+  margin-top: 2px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* =============================================
+   MAIN LAYOUT
+   ============================================= */
+.app-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px 32px;
+  display: grid;
+  gap: 16px;
+}
+
+/* =============================================
+   SECTIONS
+   ============================================= */
+.form-section,
+.chart-section,
+.list-section {
+  padding: 20px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.form-section h2,
+.chart-section h2,
+.list-section h2 {
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+}
+
+/* =============================================
+   FORM
+   ============================================= */
+.field-group {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.field-group label {
+  font-weight: 600;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input,
+select {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+input:focus,
+select:focus,
+button:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.25);
+  outline-offset: 1px;
+}
+
+.field-error {
+  min-height: 1.25em;
+  color: var(--color-error);
+  font-size: 0.875rem;
+}
+
+.btn-primary {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 16px;
+  color: #ffffff;
+  background-color: var(--color-primary);
+  border: 0;
+  border-radius: var(--radius);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+/* =============================================
+   CHART
+   ============================================= */
+.chart-section canvas {
+  display: block;
+  width: 100% !important;
+  max-height: 320px;
+}
+
+.placeholder-text {
+  padding: 12px 0;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+/* =============================================
+   TRANSACTION LIST
+   ============================================= */
+#transaction-list {
+  list-style: none;
+  max-height: 420px;
+  overflow-y: auto;
+  display: grid;
+  gap: 8px;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.transaction-details {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.transaction-name {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.transaction-category {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.transaction-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.transaction-amount {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.btn-delete {
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background-color: var(--color-bg);
+  color: var(--color-danger);
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  border-color: var(--color-danger);
+}
+
+/* =============================================
+   DESKTOP
+   ============================================= */
+@media (min-width: 768px) {
+  .app-main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .list-section {
+    grid-column: 1 / -1;
+  }
+}
+
+/* =============================================
+   MOBILE
+   ============================================= */
+@media (max-width: 767px) {
+  .app-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .balance-display {
+    text-align: left;
+  }
+
+  .transaction-item {
+    align-items: flex-start;
+  }
+
+  .transaction-right {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+/* =============================================
+   SMALL MOBILE
+   ============================================= */
+@media (max-width: 480px) {
+  .app-header,
+  .app-main {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .form-section,
+  .chart-section,
+  .list-section {
+    padding: 16px;
+  }
+
+  .transaction-item {
+    flex-direction: column;
+  }
+
+  .transaction-right {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
